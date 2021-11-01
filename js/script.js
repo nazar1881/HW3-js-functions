@@ -2,30 +2,31 @@ console.log('---------Пункт №4');
 console.log('Функция - суммирование двух чисел');
 
 function sum (a, b) {
-    console.log(a+b);
+    return a+b;
 }
-sum(5,11);
+console.log(sum(5,11));
+
 
 console.log('Функция - вычитание двух чисел');
 
 function subtraction (a, b) {
-    console.log(a-b);
+    return a-b;
 }
-subtraction(15,5);
+console.log(subtraction(15,5));
 
 console.log('Функция - умножение двух чисел');
 
 function multiplication (a, b) {
-    console.log(a*b);
+    return a*b;
 }
-multiplication(5,5);
+console.log(multiplication(5,5));
 
 console.log('Функция - деление двух чисел'); 
 
 function division (a, b) {
-    console.log(a/b);
+    return a/b;
 }
-division(15,5)
+console.log(division(15,5));
 
 console.log('---------Пункт №5');
 console.log('Реализуйте функцию которая выводит в консоль числа от 1 до n.');
@@ -51,22 +52,22 @@ console.log('---------Пункт №7');
 console.log('Реализуйте функцию возведения в степень pow. pow(x, n) -  x - значение, n - степень. ');
 
 function pow (x, n) {
-    console.log(Math.pow(x,n));
+    return Math.pow(x,n);
 }
-pow (2,3);
+console.log(pow(2,3));
 
 console.log('---------Пункт №8');
 console.log('Реализуйте функцию isBigger');
 
 function isBigger (a, b) {
-    console.log(a > b);
+    return a > b;
 }
-isBigger(5,-1)
+console.log(isBigger(5,-1));
 
 console.log('---------Пункт №9');
 console.log('Реализуйте функцию isSmaller');
 
 function isSmaller(a, b) {
-    console.log(a < b);
+    return a < b;
 }
-isSmaller(5,-1)
+console.log(isSmaller(5,-1));
